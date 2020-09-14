@@ -192,7 +192,7 @@ namespace CNN_ImageSize_Calculator_Win
             }
             catch
             {
-                MessageBox.Show("Error");
+                MessageBox.Show("Please input Width and Height");
             }
             
         }
@@ -229,14 +229,19 @@ namespace CNN_ImageSize_Calculator_Win
                     Width1 = (InWidth - 1) * Hid1S - 2 * Hid1P + Hid1K;
                     Height1 = (InHeight - 1) * Hid1S - 2 * Hid1P + Hid1K;
                     break;
-                case "Null":
-                    //第一层无运算结果
-                    Width1 = 0;
-                    Height1 = 0;
-                    break;
+                //case "Null":
+                //    //第一层无运算结果
+                //    Width1 = 0;
+                //    Height1 = 0;
+                //    break;
             }
             textBoxHid1Width.Text = Width1.ToString();
             textBoxHid1Height.Text = Height1.ToString();
+            if (str1 == "Null")
+            {
+                textBoxHid1Width.Clear();
+                textBoxHid1Height.Clear();
+            }
 
 
             //获取第二层参数
@@ -264,14 +269,19 @@ namespace CNN_ImageSize_Calculator_Win
                     Width2 = (Width1 - 1) * Hid2S - 2 * Hid2P + Hid2K;
                     Height2 = (Height1 - 1) * Hid2S - 2 * Hid2P + Hid2K;
                     break;
-                case "Null":
-                    //第二层无运算结果
-                    Width2 = 0;
-                    Height2 = 0;
-                    break;
+                //case "Null":
+                //    //第二层无运算结果
+                //    Width2 = 0;
+                //    Height2 = 0;
+                //    break;
             }
             textBoxHid2Width.Text = Width2.ToString();
             textBoxHid2Height.Text = Height2.ToString();
+            if (str2 == "Null")
+            {
+                textBoxHid2Width.Clear();
+                textBoxHid2Height.Clear();
+            }
 
 
             //获取第三层参数
@@ -299,14 +309,19 @@ namespace CNN_ImageSize_Calculator_Win
                     Width3 = (Width2 - 1) * Hid3S - 2 * Hid3P + Hid3K;
                     Height3 = (Height2 - 1) * Hid3S - 2 * Hid3P + Hid3K;
                     break;
-                case "Null":
-                    //第三层无运算结果
-                    Width3 = 0;
-                    Height3 = 0;
-                    break;
+                //case "Null":
+                //    //第三层无运算结果
+                //    Width3 = 0;
+                //    Height3 = 0;
+                //    break;
             }
             textBoxHid3Width.Text = Width3.ToString();
             textBoxHid3Height.Text = Height3.ToString();
+            if (str3 == "Null")
+            {
+                textBoxHid3Width.Clear();
+                textBoxHid3Height.Clear();
+            }
 
 
             //获取第四层参数
@@ -334,14 +349,19 @@ namespace CNN_ImageSize_Calculator_Win
                     Width4 = (Width3 - 1) * Hid4S - 2 * Hid4P + Hid4K;
                     Height4 = (Height3 - 1) * Hid4S - 2 * Hid4P + Hid4K;
                     break;
-                case "Null":
-                    //第四层无运算结果
-                    Width4 = 0;
-                    Height4 = 0;
-                    break;
+                //case "Null":
+                //    //第四层无运算结果
+                //    Width4 = 0;
+                //    Height4 = 0;
+                //    break;
             }
             textBoxHid4Width.Text = Width4.ToString();
             textBoxHid4Height.Text = Height4.ToString();
+            if (str4 == "Null")
+            {
+                textBoxHid4Width.Clear();
+                textBoxHid4Height.Clear();
+            }
 
 
             //获取第五层参数
@@ -369,14 +389,19 @@ namespace CNN_ImageSize_Calculator_Win
                     Width5 = (Width4 - 1) * Hid5S - 2 * Hid5P + Hid5K;
                     Height5 = (Height4 - 1) * Hid5S - 2 * Hid5P + Hid5K;
                     break;
-                case "Null":
-                    //第五层无运算结果
-                    Width5 = 0;
-                    Height5 = 0;
-                    break;
+                //case "Null":
+                //    //第五层无运算结果
+                //    Width5 = 0;
+                //    Height5 = 0;
+                //    break;
             }
             textBoxHid5Width.Text = Width5.ToString();
             textBoxHid5Height.Text = Height5.ToString();
+            if (str5 == "Null")
+            {
+                textBoxHid5Width.Clear();
+                textBoxHid5Height.Clear();
+            }
 
 
             //获取第六层参数
@@ -404,14 +429,19 @@ namespace CNN_ImageSize_Calculator_Win
                     Width6 = (Width5 - 1) * Hid6S - 2 * Hid6P + Hid6K;
                     Height6 = (Height5 - 1) * Hid6S - 2 * Hid6P + Hid6K;
                     break;
-                case "Null":
-                    //第六层无运算结果
-                    Width6 = 0;
-                    Height6 = 0;
-                    break;
+                //case "Null":
+                //    //第六层无运算结果
+                //    Width6 = 0;
+                //    Height6 = 0;
+                //    break;
             }
             textBoxHid6Width.Text = Width6.ToString();
             textBoxHid6Height.Text = Height6.ToString();
+            if (str6 == "Null")
+            {
+                textBoxHid6Width.Clear();
+                textBoxHid6Height.Clear();
+            }
 
 
             //获取第七层参数
@@ -439,14 +469,19 @@ namespace CNN_ImageSize_Calculator_Win
                     Width7 = (Width6 - 1) * Hid7S - 2 * Hid7P + Hid7K;
                     Height7 = (Height6 - 1) * Hid7S - 2 * Hid7P + Hid7K;
                     break;
-                case "Null":
-                    //第七层无运算结果
-                    Width7 = 0;
-                    Height7 = 0;
-                    break;
+                //case "Null":
+                //    //第七层无运算结果
+                //    Width7 = 0;
+                //    Height7 = 0;
+                //    break;
             }
             textBoxHid7Width.Text = Width7.ToString();
             textBoxHid7Height.Text = Height7.ToString();
+            if (str7 == "Null")
+            {
+                textBoxHid7Width.Clear();
+                textBoxHid7Height.Clear();
+            }
 
 
             //获取第八层参数
@@ -474,14 +509,19 @@ namespace CNN_ImageSize_Calculator_Win
                     Width8 = (Width7 - 1) * Hid8S - 2 * Hid8P + Hid8K;
                     Height8 = (Height7 - 1) * Hid8S - 2 * Hid8P + Hid8K;
                     break;
-                case "Null":
-                    //第八层无运算结果
-                    Width8 = 0;
-                    Height8 = 0;
-                    break;
+                //case "Null":
+                //    //第八层无运算结果
+                //    Width8 = 0;
+                //    Height8 = 0;
+                //    break;
             }
             textBoxHid8Width.Text = Width8.ToString();
             textBoxHid8Height.Text = Height8.ToString();
+            if (str8 == "Null")
+            {
+                textBoxHid8Width.Clear();
+                textBoxHid8Height.Clear();
+            }
 
 
             //获取第九层参数
@@ -509,14 +549,19 @@ namespace CNN_ImageSize_Calculator_Win
                     Width9 = (Width8 - 1) * Hid9S - 2 * Hid9P + Hid9K;
                     Height9 = (Height8 - 1) * Hid9S - 2 * Hid9P + Hid9K;
                     break;
-                case "Null":
-                    //第九层无运算结果
-                    Width9 = 0;
-                    Height9 = 0;
-                    break;
+                //case "Null":
+                //    //第九层无运算结果
+                //    Width9 = 0;
+                //    Height9 = 0;
+                //    break;
             }
             textBoxHid9Width.Text = Width9.ToString();
             textBoxHid9Height.Text = Height9.ToString();
+            if (str9 == "Null")
+            {
+                textBoxHid9Width.Clear();
+                textBoxHid9Height.Clear();
+            }
 
 
             //获取第十层参数
@@ -544,14 +589,19 @@ namespace CNN_ImageSize_Calculator_Win
                     Width10 = (Width9 - 1) * Hid10S - 2 * Hid10P + Hid10K;
                     Height10 = (Height9 - 1) * Hid10S - 2 * Hid10P + Hid10K;
                     break;
-                case "Null":
-                    //第十层无运算结果
-                    Width10 = 0;
-                    Height10 = 0;
-                    break;
+                //case "Null":
+                //    //第十层无运算结果
+                //    Width10 = 0;
+                //    Height10 = 0;
+                //    break;
             }
             textBoxHid10Width.Text = Width10.ToString();
             textBoxHid10Height.Text = Height10.ToString();
+            if (str10 == "Null")
+            {
+                textBoxHid10Width.Clear();
+                textBoxHid10Height.Clear();
+            }
 
 
             //获取第十一层参数
@@ -579,14 +629,19 @@ namespace CNN_ImageSize_Calculator_Win
                     Width11 = (Width10 - 1) * Hid11S - 2 * Hid11P + Hid11K;
                     Height11 = (Height10 - 1) * Hid11S - 2 * Hid11P + Hid11K;
                     break;
-                case "Null":
-                    //第十一层无运算结果
-                    Width11 = 0;
-                    Height11 = 0;
-                    break;
+                //case "Null":
+                //    //第十一层无运算结果
+                //    Width11 = 0;
+                //    Height11 = 0;
+                //    break;
             }
             textBoxHid11Width.Text = Width11.ToString();
             textBoxHid11Height.Text = Height11.ToString();
+            if (str11 == "Null")
+            {
+                textBoxHid11Width.Clear();
+                textBoxHid11Height.Clear();
+            }
 
 
             //获取第十二层参数
@@ -614,14 +669,19 @@ namespace CNN_ImageSize_Calculator_Win
                     Width12 = (Width11 - 1) * Hid12S - 2 * Hid12P + Hid12K;
                     Height12 = (Height11 - 1) * Hid12S - 2 * Hid12P + Hid12K;
                     break;
-                case "Null":
-                    //第十二层无运算结果
-                    Width12 = 0;
-                    Height12 = 0;
-                    break;
+                //case "Null":
+                //    //第十二层无运算结果
+                //    Width12 = 0;
+                //    Height12 = 0;
+                //    break;
             }
             textBoxHid12Width.Text = Width12.ToString();
             textBoxHid12Height.Text = Height12.ToString();
+            if (str12 == "Null")
+            {
+                textBoxHid12Width.Clear();
+                textBoxHid12Height.Clear();
+            }
 
 
             //获取第十三层参数
@@ -649,14 +709,19 @@ namespace CNN_ImageSize_Calculator_Win
                     Width13 = (Width12 - 1) * Hid13S - 2 * Hid13P + Hid13K;
                     Height13 = (Height12 - 1) * Hid13S - 2 * Hid13P + Hid13K;
                     break;
-                case "Null":
-                    //第十三层无运算结果
-                    Width13 = 0;
-                    Height13 = 0;
-                    break;
+                //case "Null":
+                //    //第十三层无运算结果
+                //    Width13 = 0;
+                //    Height13 = 0;
+                //    break;
             }
             textBoxHid13Width.Text = Width13.ToString();
             textBoxHid13Height.Text = Height13.ToString();
+            if (str13 == "Null")
+            {
+                textBoxHid13Width.Clear();
+                textBoxHid13Height.Clear();
+            }
 
 
             //获取第十四层参数
@@ -684,14 +749,19 @@ namespace CNN_ImageSize_Calculator_Win
                     Width14 = (Width13 - 1) * Hid14S - 2 * Hid14P + Hid14K;
                     Height14 = (Height13 - 1) * Hid14S - 2 * Hid14P + Hid14K;
                     break;
-                case "Null":
-                    //第十四层无运算结果
-                    Width14 = 0;
-                    Height14 = 0;
-                    break;
+                //case "Null":
+                //    //第十四层无运算结果
+                //    Width14 = 0;
+                //    Height14 = 0;
+                //    break;
             }
             textBoxHid14Width.Text = Width14.ToString();
             textBoxHid14Height.Text = Height14.ToString();
+            if (str14 == "Null")
+            {
+                textBoxHid14Width.Clear();
+                textBoxHid14Height.Clear();
+            }
 
 
             //获取第十五层参数
@@ -719,14 +789,19 @@ namespace CNN_ImageSize_Calculator_Win
                     Width15 = (Width14 - 1) * Hid15S - 2 * Hid15P + Hid15K;
                     Height15 = (Height14 - 1) * Hid15S - 2 * Hid15P + Hid15K;
                     break;
-                case "Null":
-                    //第十五层无运算结果
-                    Width15 = 0;
-                    Height15 = 0;
-                    break;
+                //case "Null":
+                //    //第十五层无运算结果
+                //    Width15 = 0;
+                //    Height15 = 0;
+                //    break;
             }
             textBoxHid15Width.Text = Width15.ToString();
             textBoxHid15Height.Text = Height15.ToString();
+            if (str15 == "Null")
+            {
+                textBoxHid15Width.Clear();
+                textBoxHid15Height.Clear();
+            }
 
 
             //获取第十六层参数
@@ -754,15 +829,19 @@ namespace CNN_ImageSize_Calculator_Win
                     Width16 = (Width15 - 1) * Hid16S - 2 * Hid16P + Hid16K;
                     Height16 = (Height15 - 1) * Hid16S - 2 * Hid16P + Hid16K;
                     break;
-                case "Null":
-                    //第十六层无运算结果
-                    Width16 = 0;
-                    Height16 = 0;
-                    break;
+                //case "Null":
+                //    //第十六层无运算结果
+                //    Width16 = 0;
+                //    Height16 = 0;
+                //    break;
             }
             textBoxHid16Width.Text = Width16.ToString();
             textBoxHid16Height.Text = Height16.ToString();
-
+            if (str16 == "Null")
+            {
+                textBoxHid16Width.Clear();
+                textBoxHid16Height.Clear();
+            }
 
         }
 
