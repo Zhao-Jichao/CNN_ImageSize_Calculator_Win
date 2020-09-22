@@ -16,6 +16,7 @@ CNN 图像输入尺寸计算器
 ![UI](CNN_ImageSize_CalculatorV1.1.png)
 
 
-顺带记录一下，这是项目的起源，就是一个简单的数字计算器
+顺带记录一下，这是项目的起源，就是一个简单的数字计算器。
+
 ![UI](CNN_ImageSize_CalculatorV0.1.png)
 
