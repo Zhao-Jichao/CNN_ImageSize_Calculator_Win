@@ -127,10 +127,10 @@ namespace CNN_ImageSize_Calculator_Win
         {
             textBoxInWidth.Clear();
             textBoxInHeight.Clear();
-            textBoxOutWidth.Clear();
-            textBoxOutHeight.Clear();
+            //textBoxOutWidth.Clear();
+            //textBoxOutHeight.Clear();
             textBoxInChannel.Text = 3.ToString();
-            textBoxOutChannel.Text = 3.ToString();
+            //textBoxOutChannel.Text = 3.ToString();
 
             textBoxHid1K.Text = 1.ToString();
             textBoxHid1S.Text = 1.ToString();
@@ -181,6 +181,23 @@ namespace CNN_ImageSize_Calculator_Win
             textBoxHid16S.Text = 1.ToString();
             textBoxHid16P.Text = 0.ToString();
 
+            panelDis1.BackColor = Color.FromArgb(123, 191, 234);
+            panelDis2.BackColor = Color.FromArgb(123, 191, 234);
+            panelDis3.BackColor = Color.FromArgb(123, 191, 234);
+            panelDis4.BackColor = Color.FromArgb(123, 191, 234);
+            panelDis5.BackColor = Color.FromArgb(123, 191, 234);
+            panelDis6.BackColor = Color.FromArgb(123, 191, 234);
+            panelDis7.BackColor = Color.FromArgb(123, 191, 234);
+            panelDis8.BackColor = Color.FromArgb(123, 191, 234);
+            panelDis9.BackColor = Color.FromArgb(123, 191, 234);
+            panelDis10.BackColor = Color.FromArgb(123, 191, 234);
+            panelDis11.BackColor = Color.FromArgb(123, 191, 234);
+            panelDis12.BackColor = Color.FromArgb(123, 191, 234);
+            panelDis13.BackColor = Color.FromArgb(123, 191, 234);
+            panelDis14.BackColor = Color.FromArgb(123, 191, 234);
+            panelDis15.BackColor = Color.FromArgb(123, 191, 234);
+            panelDis16.BackColor = Color.FromArgb(123, 191, 234);
+
         }
 
         //Calculate计算按钮
@@ -192,7 +209,7 @@ namespace CNN_ImageSize_Calculator_Win
             }
             catch
             {
-                MessageBox.Show("Please input Width and Height");
+                MessageBox.Show("Please input Width and Height!");
             }
             
         }
@@ -237,10 +254,12 @@ namespace CNN_ImageSize_Calculator_Win
             }
             textBoxHid1Width.Text = Width1.ToString();
             textBoxHid1Height.Text = Height1.ToString();
+            panelDis1.BackColor = Color.FromArgb(0, 166, 222);
             if (str1 == "Null")
             {
                 textBoxHid1Width.Clear();
                 textBoxHid1Height.Clear();
+                panelDis1.BackColor = Color.FromArgb(123, 191, 234);
             }
 
 
@@ -277,10 +296,12 @@ namespace CNN_ImageSize_Calculator_Win
             }
             textBoxHid2Width.Text = Width2.ToString();
             textBoxHid2Height.Text = Height2.ToString();
+            panelDis2.BackColor = Color.FromArgb(0, 166, 222);
             if (str2 == "Null")
             {
                 textBoxHid2Width.Clear();
                 textBoxHid2Height.Clear();
+                panelDis2.BackColor = Color.FromArgb(123, 191, 234);
             }
 
 
@@ -317,10 +338,12 @@ namespace CNN_ImageSize_Calculator_Win
             }
             textBoxHid3Width.Text = Width3.ToString();
             textBoxHid3Height.Text = Height3.ToString();
+            panelDis3.BackColor = Color.FromArgb(0, 166, 222);
             if (str3 == "Null")
             {
                 textBoxHid3Width.Clear();
                 textBoxHid3Height.Clear();
+                panelDis3.BackColor = Color.FromArgb(123, 191, 234);
             }
 
 
@@ -357,10 +380,12 @@ namespace CNN_ImageSize_Calculator_Win
             }
             textBoxHid4Width.Text = Width4.ToString();
             textBoxHid4Height.Text = Height4.ToString();
+            panelDis4.BackColor = Color.FromArgb(0, 166, 222);
             if (str4 == "Null")
             {
                 textBoxHid4Width.Clear();
                 textBoxHid4Height.Clear();
+                panelDis4.BackColor = Color.FromArgb(123, 191, 234);
             }
 
 
@@ -397,10 +422,12 @@ namespace CNN_ImageSize_Calculator_Win
             }
             textBoxHid5Width.Text = Width5.ToString();
             textBoxHid5Height.Text = Height5.ToString();
+            panelDis5.BackColor = Color.FromArgb(0, 166, 222);
             if (str5 == "Null")
             {
                 textBoxHid5Width.Clear();
                 textBoxHid5Height.Clear();
+                panelDis5.BackColor = Color.FromArgb(123, 191, 234);
             }
 
 
@@ -437,10 +464,12 @@ namespace CNN_ImageSize_Calculator_Win
             }
             textBoxHid6Width.Text = Width6.ToString();
             textBoxHid6Height.Text = Height6.ToString();
+            panelDis6.BackColor = Color.FromArgb(0, 166, 222);
             if (str6 == "Null")
             {
                 textBoxHid6Width.Clear();
                 textBoxHid6Height.Clear();
+                panelDis6.BackColor = Color.FromArgb(123, 191, 234);
             }
 
 
@@ -477,10 +506,12 @@ namespace CNN_ImageSize_Calculator_Win
             }
             textBoxHid7Width.Text = Width7.ToString();
             textBoxHid7Height.Text = Height7.ToString();
+            panelDis7.BackColor = Color.FromArgb(0, 166, 222);
             if (str7 == "Null")
             {
                 textBoxHid7Width.Clear();
                 textBoxHid7Height.Clear();
+                panelDis7.BackColor = Color.FromArgb(123, 191, 234);
             }
 
 
@@ -517,10 +548,12 @@ namespace CNN_ImageSize_Calculator_Win
             }
             textBoxHid8Width.Text = Width8.ToString();
             textBoxHid8Height.Text = Height8.ToString();
+            panelDis8.BackColor = Color.FromArgb(0, 166, 222);
             if (str8 == "Null")
             {
                 textBoxHid8Width.Clear();
                 textBoxHid8Height.Clear();
+                panelDis8.BackColor = Color.FromArgb(123, 191, 234);
             }
 
 
@@ -557,10 +590,12 @@ namespace CNN_ImageSize_Calculator_Win
             }
             textBoxHid9Width.Text = Width9.ToString();
             textBoxHid9Height.Text = Height9.ToString();
+            panelDis9.BackColor = Color.FromArgb(0, 166, 222);
             if (str9 == "Null")
             {
                 textBoxHid9Width.Clear();
                 textBoxHid9Height.Clear();
+                panelDis9.BackColor = Color.FromArgb(123, 191, 234);
             }
 
 
@@ -597,10 +632,12 @@ namespace CNN_ImageSize_Calculator_Win
             }
             textBoxHid10Width.Text = Width10.ToString();
             textBoxHid10Height.Text = Height10.ToString();
+            panelDis10.BackColor = Color.FromArgb(0, 166, 222);
             if (str10 == "Null")
             {
                 textBoxHid10Width.Clear();
                 textBoxHid10Height.Clear();
+                panelDis10.BackColor = Color.FromArgb(123, 191, 234);
             }
 
 
@@ -637,10 +674,12 @@ namespace CNN_ImageSize_Calculator_Win
             }
             textBoxHid11Width.Text = Width11.ToString();
             textBoxHid11Height.Text = Height11.ToString();
+            panelDis11.BackColor = Color.FromArgb(0, 166, 222);
             if (str11 == "Null")
             {
                 textBoxHid11Width.Clear();
                 textBoxHid11Height.Clear();
+                panelDis11.BackColor = Color.FromArgb(123, 191, 234);
             }
 
 
@@ -677,10 +716,12 @@ namespace CNN_ImageSize_Calculator_Win
             }
             textBoxHid12Width.Text = Width12.ToString();
             textBoxHid12Height.Text = Height12.ToString();
+            panelDis12.BackColor = Color.FromArgb(0, 166, 222);
             if (str12 == "Null")
             {
                 textBoxHid12Width.Clear();
                 textBoxHid12Height.Clear();
+                panelDis12.BackColor = Color.FromArgb(123, 191, 234);
             }
 
 
@@ -717,10 +758,12 @@ namespace CNN_ImageSize_Calculator_Win
             }
             textBoxHid13Width.Text = Width13.ToString();
             textBoxHid13Height.Text = Height13.ToString();
+            panelDis13.BackColor = Color.FromArgb(0, 166, 222);
             if (str13 == "Null")
             {
                 textBoxHid13Width.Clear();
                 textBoxHid13Height.Clear();
+                panelDis13.BackColor = Color.FromArgb(123, 191, 234);
             }
 
 
@@ -757,10 +800,12 @@ namespace CNN_ImageSize_Calculator_Win
             }
             textBoxHid14Width.Text = Width14.ToString();
             textBoxHid14Height.Text = Height14.ToString();
+            panelDis14.BackColor = Color.FromArgb(0, 166, 222);
             if (str14 == "Null")
             {
                 textBoxHid14Width.Clear();
                 textBoxHid14Height.Clear();
+                panelDis14.BackColor = Color.FromArgb(123, 191, 234);
             }
 
 
@@ -797,10 +842,12 @@ namespace CNN_ImageSize_Calculator_Win
             }
             textBoxHid15Width.Text = Width15.ToString();
             textBoxHid15Height.Text = Height15.ToString();
+            panelDis15.BackColor = Color.FromArgb(0, 166, 222);
             if (str15 == "Null")
             {
                 textBoxHid15Width.Clear();
                 textBoxHid15Height.Clear();
+                panelDis15.BackColor = Color.FromArgb(123, 191, 234);
             }
 
 
@@ -837,13 +884,19 @@ namespace CNN_ImageSize_Calculator_Win
             }
             textBoxHid16Width.Text = Width16.ToString();
             textBoxHid16Height.Text = Height16.ToString();
+            panelDis16.BackColor = Color.FromArgb(0, 166, 222);
             if (str16 == "Null")
             {
                 textBoxHid16Width.Clear();
                 textBoxHid16Height.Clear();
+                panelDis16.BackColor = Color.FromArgb(123, 191, 234);
             }
 
         }
 
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

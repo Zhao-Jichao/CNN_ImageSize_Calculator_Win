@@ -38,10 +38,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.textBoxInWidth = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
             this.buttonReset = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.buttonCalculate = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.textBoxHid1P = new System.Windows.Forms.TextBox();
@@ -88,27 +85,27 @@
             this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.textBoxHid5K = new System.Windows.Forms.TextBox();
-            this.panel8 = new System.Windows.Forms.Panel();
+            this.panelDis1 = new System.Windows.Forms.Panel();
             this.Hid1Height = new System.Windows.Forms.Label();
             this.Hid1Width = new System.Windows.Forms.Label();
             this.textBoxHid1Height = new System.Windows.Forms.TextBox();
             this.textBoxHid1Width = new System.Windows.Forms.TextBox();
-            this.panel9 = new System.Windows.Forms.Panel();
+            this.panelDis2 = new System.Windows.Forms.Panel();
             this.label29 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.textBoxHid2Height = new System.Windows.Forms.TextBox();
             this.textBoxHid2Width = new System.Windows.Forms.TextBox();
-            this.panel10 = new System.Windows.Forms.Panel();
+            this.panelDis3 = new System.Windows.Forms.Panel();
             this.label31 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
             this.textBoxHid3Height = new System.Windows.Forms.TextBox();
             this.textBoxHid3Width = new System.Windows.Forms.TextBox();
-            this.panel11 = new System.Windows.Forms.Panel();
+            this.panelDis4 = new System.Windows.Forms.Panel();
             this.label33 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
             this.textBoxHid4Height = new System.Windows.Forms.TextBox();
             this.textBoxHid4Width = new System.Windows.Forms.TextBox();
-            this.panel12 = new System.Windows.Forms.Panel();
+            this.panelDis5 = new System.Windows.Forms.Panel();
             this.label35 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
             this.textBoxHid5Height = new System.Windows.Forms.TextBox();
@@ -128,7 +125,7 @@
             this.label39 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
             this.textBoxHid6K = new System.Windows.Forms.TextBox();
-            this.panel20 = new System.Windows.Forms.Panel();
+            this.panelDis6 = new System.Windows.Forms.Panel();
             this.label41 = new System.Windows.Forms.Label();
             this.label42 = new System.Windows.Forms.Label();
             this.textBoxHid6Height = new System.Windows.Forms.TextBox();
@@ -143,7 +140,7 @@
             this.label45 = new System.Windows.Forms.Label();
             this.label46 = new System.Windows.Forms.Label();
             this.textBoxHid7K = new System.Windows.Forms.TextBox();
-            this.panel23 = new System.Windows.Forms.Panel();
+            this.panelDis7 = new System.Windows.Forms.Panel();
             this.label47 = new System.Windows.Forms.Label();
             this.label48 = new System.Windows.Forms.Label();
             this.textBoxHid7Height = new System.Windows.Forms.TextBox();
@@ -158,7 +155,7 @@
             this.label51 = new System.Windows.Forms.Label();
             this.label52 = new System.Windows.Forms.Label();
             this.textBoxHid8K = new System.Windows.Forms.TextBox();
-            this.panel26 = new System.Windows.Forms.Panel();
+            this.panelDis8 = new System.Windows.Forms.Panel();
             this.label53 = new System.Windows.Forms.Label();
             this.label54 = new System.Windows.Forms.Label();
             this.textBoxHid8Height = new System.Windows.Forms.TextBox();
@@ -173,7 +170,7 @@
             this.label57 = new System.Windows.Forms.Label();
             this.label58 = new System.Windows.Forms.Label();
             this.textBoxHid9K = new System.Windows.Forms.TextBox();
-            this.panel29 = new System.Windows.Forms.Panel();
+            this.panelDis9 = new System.Windows.Forms.Panel();
             this.label59 = new System.Windows.Forms.Label();
             this.label60 = new System.Windows.Forms.Label();
             this.textBoxHid9Height = new System.Windows.Forms.TextBox();
@@ -188,7 +185,7 @@
             this.label63 = new System.Windows.Forms.Label();
             this.label64 = new System.Windows.Forms.Label();
             this.textBoxHid10K = new System.Windows.Forms.TextBox();
-            this.panel32 = new System.Windows.Forms.Panel();
+            this.panelDis10 = new System.Windows.Forms.Panel();
             this.label65 = new System.Windows.Forms.Label();
             this.label66 = new System.Windows.Forms.Label();
             this.textBoxHid10Height = new System.Windows.Forms.TextBox();
@@ -203,7 +200,7 @@
             this.label69 = new System.Windows.Forms.Label();
             this.label70 = new System.Windows.Forms.Label();
             this.textBoxHid11K = new System.Windows.Forms.TextBox();
-            this.panel35 = new System.Windows.Forms.Panel();
+            this.panelDis11 = new System.Windows.Forms.Panel();
             this.label71 = new System.Windows.Forms.Label();
             this.label72 = new System.Windows.Forms.Label();
             this.textBoxHid11Height = new System.Windows.Forms.TextBox();
@@ -218,7 +215,7 @@
             this.label75 = new System.Windows.Forms.Label();
             this.label76 = new System.Windows.Forms.Label();
             this.textBoxHid12K = new System.Windows.Forms.TextBox();
-            this.panel38 = new System.Windows.Forms.Panel();
+            this.panelDis12 = new System.Windows.Forms.Panel();
             this.label77 = new System.Windows.Forms.Label();
             this.label78 = new System.Windows.Forms.Label();
             this.textBoxHid12Height = new System.Windows.Forms.TextBox();
@@ -233,7 +230,7 @@
             this.label81 = new System.Windows.Forms.Label();
             this.label82 = new System.Windows.Forms.Label();
             this.textBoxHid13K = new System.Windows.Forms.TextBox();
-            this.panel41 = new System.Windows.Forms.Panel();
+            this.panelDis13 = new System.Windows.Forms.Panel();
             this.label83 = new System.Windows.Forms.Label();
             this.label84 = new System.Windows.Forms.Label();
             this.textBoxHid13Height = new System.Windows.Forms.TextBox();
@@ -248,7 +245,7 @@
             this.label87 = new System.Windows.Forms.Label();
             this.label88 = new System.Windows.Forms.Label();
             this.textBoxHid14K = new System.Windows.Forms.TextBox();
-            this.panel44 = new System.Windows.Forms.Panel();
+            this.panelDis14 = new System.Windows.Forms.Panel();
             this.label89 = new System.Windows.Forms.Label();
             this.label90 = new System.Windows.Forms.Label();
             this.textBoxHid14Height = new System.Windows.Forms.TextBox();
@@ -263,7 +260,7 @@
             this.label93 = new System.Windows.Forms.Label();
             this.label94 = new System.Windows.Forms.Label();
             this.textBoxHid15K = new System.Windows.Forms.TextBox();
-            this.panel47 = new System.Windows.Forms.Panel();
+            this.panelDis15 = new System.Windows.Forms.Panel();
             this.label95 = new System.Windows.Forms.Label();
             this.label96 = new System.Windows.Forms.Label();
             this.textBoxHid15Height = new System.Windows.Forms.TextBox();
@@ -278,15 +275,12 @@
             this.label99 = new System.Windows.Forms.Label();
             this.label100 = new System.Windows.Forms.Label();
             this.textBoxHid16K = new System.Windows.Forms.TextBox();
-            this.panel50 = new System.Windows.Forms.Panel();
+            this.panelDis16 = new System.Windows.Forms.Panel();
             this.label101 = new System.Windows.Forms.Label();
             this.label102 = new System.Windows.Forms.Label();
             this.textBoxHid16Height = new System.Windows.Forms.TextBox();
             this.textBoxHid16Width = new System.Windows.Forms.TextBox();
-            this.textBoxOutChannel = new System.Windows.Forms.TextBox();
-            this.textBoxOutHeight = new System.Windows.Forms.TextBox();
-            this.textBoxOutWidth = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -294,11 +288,11 @@
             this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel7.SuspendLayout();
-            this.panel8.SuspendLayout();
-            this.panel9.SuspendLayout();
-            this.panel10.SuspendLayout();
-            this.panel11.SuspendLayout();
-            this.panel12.SuspendLayout();
+            this.panelDis1.SuspendLayout();
+            this.panelDis2.SuspendLayout();
+            this.panelDis3.SuspendLayout();
+            this.panelDis4.SuspendLayout();
+            this.panelDis5.SuspendLayout();
             this.panel13.SuspendLayout();
             this.panel14.SuspendLayout();
             this.panel15.SuspendLayout();
@@ -306,42 +300,42 @@
             this.panel17.SuspendLayout();
             this.panel18.SuspendLayout();
             this.panel19.SuspendLayout();
-            this.panel20.SuspendLayout();
+            this.panelDis6.SuspendLayout();
             this.panel21.SuspendLayout();
             this.panel22.SuspendLayout();
-            this.panel23.SuspendLayout();
+            this.panelDis7.SuspendLayout();
             this.panel24.SuspendLayout();
             this.panel25.SuspendLayout();
-            this.panel26.SuspendLayout();
+            this.panelDis8.SuspendLayout();
             this.panel27.SuspendLayout();
             this.panel28.SuspendLayout();
-            this.panel29.SuspendLayout();
+            this.panelDis9.SuspendLayout();
             this.panel30.SuspendLayout();
             this.panel31.SuspendLayout();
-            this.panel32.SuspendLayout();
+            this.panelDis10.SuspendLayout();
             this.panel33.SuspendLayout();
             this.panel34.SuspendLayout();
-            this.panel35.SuspendLayout();
+            this.panelDis11.SuspendLayout();
             this.panel36.SuspendLayout();
             this.panel37.SuspendLayout();
-            this.panel38.SuspendLayout();
+            this.panelDis12.SuspendLayout();
             this.panel39.SuspendLayout();
             this.panel40.SuspendLayout();
-            this.panel41.SuspendLayout();
+            this.panelDis13.SuspendLayout();
             this.panel42.SuspendLayout();
             this.panel43.SuspendLayout();
-            this.panel44.SuspendLayout();
+            this.panelDis14.SuspendLayout();
             this.panel45.SuspendLayout();
             this.panel46.SuspendLayout();
-            this.panel47.SuspendLayout();
+            this.panelDis15.SuspendLayout();
             this.panel48.SuspendLayout();
             this.panel49.SuspendLayout();
-            this.panel50.SuspendLayout();
+            this.panelDis16.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.DodgerBlue;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(166)))), ((int)(((byte)(222)))));
             this.panel1.Controls.Add(this.textBoxInChannel);
             this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.textBoxInHeight);
@@ -423,72 +417,38 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.SystemColors.Window;
-            this.panel2.Controls.Add(this.textBoxOutChannel);
-            this.panel2.Controls.Add(this.label8);
-            this.panel2.Controls.Add(this.buttonReset);
+            this.panel2.BackColor = System.Drawing.SystemColors.Control;
             this.panel2.Controls.Add(this.label4);
-            this.panel2.Controls.Add(this.textBoxOutHeight);
-            this.panel2.Controls.Add(this.label5);
-            this.panel2.Controls.Add(this.label6);
+            this.panel2.Controls.Add(this.buttonReset);
             this.panel2.Controls.Add(this.buttonCalculate);
-            this.panel2.Controls.Add(this.textBoxOutWidth);
             this.panel2.Location = new System.Drawing.Point(1112, 498);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(213, 215);
             this.panel2.TabIndex = 2;
             // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("宋体", 12F);
-            this.label8.Location = new System.Drawing.Point(22, 102);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(72, 16);
-            this.label8.TabIndex = 5;
-            this.label8.Text = "Channel:";
-            // 
             // buttonReset
             // 
             this.buttonReset.BackColor = System.Drawing.Color.Crimson;
             this.buttonReset.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.buttonReset.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonReset.Font = new System.Drawing.Font("宋体", 12F);
-            this.buttonReset.Location = new System.Drawing.Point(119, 132);
+            this.buttonReset.Location = new System.Drawing.Point(16, 98);
             this.buttonReset.Name = "buttonReset";
-            this.buttonReset.Size = new System.Drawing.Size(89, 60);
+            this.buttonReset.Size = new System.Drawing.Size(184, 69);
             this.buttonReset.TabIndex = 5;
             this.buttonReset.Text = "Reset";
             this.buttonReset.UseVisualStyleBackColor = false;
             this.buttonReset.Click += new System.EventHandler(this.buttonReset_Click);
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("宋体", 12F);
-            this.label4.Location = new System.Drawing.Point(22, 75);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(64, 16);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Height:";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("宋体", 12F);
-            this.label5.Location = new System.Drawing.Point(22, 48);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(56, 16);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "Width:";
-            // 
             // buttonCalculate
             // 
-            this.buttonCalculate.BackColor = System.Drawing.Color.DodgerBlue;
+            this.buttonCalculate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(166)))), ((int)(((byte)(222)))));
             this.buttonCalculate.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.buttonCalculate.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonCalculate.Font = new System.Drawing.Font("宋体", 12F);
-            this.buttonCalculate.Location = new System.Drawing.Point(16, 132);
+            this.buttonCalculate.Location = new System.Drawing.Point(16, 14);
             this.buttonCalculate.Name = "buttonCalculate";
-            this.buttonCalculate.Size = new System.Drawing.Size(89, 60);
+            this.buttonCalculate.Size = new System.Drawing.Size(184, 69);
             this.buttonCalculate.TabIndex = 5;
             this.buttonCalculate.Text = "Calculate";
             this.buttonCalculate.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -497,7 +457,7 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.panel3.BackColor = System.Drawing.Color.MediumTurquoise;
             this.panel3.Controls.Add(this.textBoxHid1P);
             this.panel3.Controls.Add(this.comboBox1);
             this.panel3.Controls.Add(this.label9);
@@ -581,7 +541,7 @@
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.panel4.BackColor = System.Drawing.Color.MediumTurquoise;
             this.panel4.Controls.Add(this.comboBox2);
             this.panel4.Controls.Add(this.textBoxHid2P);
             this.panel4.Controls.Add(this.label13);
@@ -594,6 +554,7 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(189, 141);
             this.panel4.TabIndex = 7;
+            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
             // comboBox2
             // 
@@ -665,7 +626,7 @@
             // 
             // panel5
             // 
-            this.panel5.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.panel5.BackColor = System.Drawing.Color.MediumTurquoise;
             this.panel5.Controls.Add(this.comboBox3);
             this.panel5.Controls.Add(this.textBoxHid3P);
             this.panel5.Controls.Add(this.label17);
@@ -749,7 +710,7 @@
             // 
             // panel6
             // 
-            this.panel6.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.panel6.BackColor = System.Drawing.Color.MediumTurquoise;
             this.panel6.Controls.Add(this.comboBox4);
             this.panel6.Controls.Add(this.textBoxHid4P);
             this.panel6.Controls.Add(this.label21);
@@ -833,7 +794,7 @@
             // 
             // panel7
             // 
-            this.panel7.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.panel7.BackColor = System.Drawing.Color.MediumTurquoise;
             this.panel7.Controls.Add(this.comboBox5);
             this.panel7.Controls.Add(this.textBoxHid5P);
             this.panel7.Controls.Add(this.label25);
@@ -915,17 +876,17 @@
             this.textBoxHid5K.TabIndex = 0;
             this.textBoxHid5K.Text = "1";
             // 
-            // panel8
+            // panelDis1
             // 
-            this.panel8.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel8.Controls.Add(this.Hid1Height);
-            this.panel8.Controls.Add(this.Hid1Width);
-            this.panel8.Controls.Add(this.textBoxHid1Height);
-            this.panel8.Controls.Add(this.textBoxHid1Width);
-            this.panel8.Location = new System.Drawing.Point(14, 155);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(190, 51);
-            this.panel8.TabIndex = 35;
+            this.panelDis1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(191)))), ((int)(((byte)(234)))));
+            this.panelDis1.Controls.Add(this.Hid1Height);
+            this.panelDis1.Controls.Add(this.Hid1Width);
+            this.panelDis1.Controls.Add(this.textBoxHid1Height);
+            this.panelDis1.Controls.Add(this.textBoxHid1Width);
+            this.panelDis1.Location = new System.Drawing.Point(14, 155);
+            this.panelDis1.Name = "panelDis1";
+            this.panelDis1.Size = new System.Drawing.Size(190, 51);
+            this.panelDis1.TabIndex = 35;
             // 
             // Hid1Height
             // 
@@ -959,17 +920,17 @@
             this.textBoxHid1Width.Size = new System.Drawing.Size(73, 21);
             this.textBoxHid1Width.TabIndex = 36;
             // 
-            // panel9
+            // panelDis2
             // 
-            this.panel9.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel9.Controls.Add(this.label29);
-            this.panel9.Controls.Add(this.label30);
-            this.panel9.Controls.Add(this.textBoxHid2Height);
-            this.panel9.Controls.Add(this.textBoxHid2Width);
-            this.panel9.Location = new System.Drawing.Point(14, 155);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(190, 51);
-            this.panel9.TabIndex = 36;
+            this.panelDis2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(191)))), ((int)(((byte)(234)))));
+            this.panelDis2.Controls.Add(this.label29);
+            this.panelDis2.Controls.Add(this.label30);
+            this.panelDis2.Controls.Add(this.textBoxHid2Height);
+            this.panelDis2.Controls.Add(this.textBoxHid2Width);
+            this.panelDis2.Location = new System.Drawing.Point(14, 155);
+            this.panelDis2.Name = "panelDis2";
+            this.panelDis2.Size = new System.Drawing.Size(190, 51);
+            this.panelDis2.TabIndex = 36;
             // 
             // label29
             // 
@@ -1003,17 +964,17 @@
             this.textBoxHid2Width.Size = new System.Drawing.Size(73, 21);
             this.textBoxHid2Width.TabIndex = 36;
             // 
-            // panel10
+            // panelDis3
             // 
-            this.panel10.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel10.Controls.Add(this.label31);
-            this.panel10.Controls.Add(this.label32);
-            this.panel10.Controls.Add(this.textBoxHid3Height);
-            this.panel10.Controls.Add(this.textBoxHid3Width);
-            this.panel10.Location = new System.Drawing.Point(17, 155);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(190, 51);
-            this.panel10.TabIndex = 37;
+            this.panelDis3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(191)))), ((int)(((byte)(234)))));
+            this.panelDis3.Controls.Add(this.label31);
+            this.panelDis3.Controls.Add(this.label32);
+            this.panelDis3.Controls.Add(this.textBoxHid3Height);
+            this.panelDis3.Controls.Add(this.textBoxHid3Width);
+            this.panelDis3.Location = new System.Drawing.Point(17, 155);
+            this.panelDis3.Name = "panelDis3";
+            this.panelDis3.Size = new System.Drawing.Size(190, 51);
+            this.panelDis3.TabIndex = 37;
             // 
             // label31
             // 
@@ -1047,17 +1008,17 @@
             this.textBoxHid3Width.Size = new System.Drawing.Size(73, 21);
             this.textBoxHid3Width.TabIndex = 36;
             // 
-            // panel11
+            // panelDis4
             // 
-            this.panel11.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel11.Controls.Add(this.label33);
-            this.panel11.Controls.Add(this.label34);
-            this.panel11.Controls.Add(this.textBoxHid4Height);
-            this.panel11.Controls.Add(this.textBoxHid4Width);
-            this.panel11.Location = new System.Drawing.Point(16, 155);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(190, 51);
-            this.panel11.TabIndex = 38;
+            this.panelDis4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(191)))), ((int)(((byte)(234)))));
+            this.panelDis4.Controls.Add(this.label33);
+            this.panelDis4.Controls.Add(this.label34);
+            this.panelDis4.Controls.Add(this.textBoxHid4Height);
+            this.panelDis4.Controls.Add(this.textBoxHid4Width);
+            this.panelDis4.Location = new System.Drawing.Point(16, 155);
+            this.panelDis4.Name = "panelDis4";
+            this.panelDis4.Size = new System.Drawing.Size(190, 51);
+            this.panelDis4.TabIndex = 38;
             // 
             // label33
             // 
@@ -1091,17 +1052,17 @@
             this.textBoxHid4Width.Size = new System.Drawing.Size(73, 21);
             this.textBoxHid4Width.TabIndex = 36;
             // 
-            // panel12
+            // panelDis5
             // 
-            this.panel12.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel12.Controls.Add(this.label35);
-            this.panel12.Controls.Add(this.label36);
-            this.panel12.Controls.Add(this.textBoxHid5Height);
-            this.panel12.Controls.Add(this.textBoxHid5Width);
-            this.panel12.Location = new System.Drawing.Point(18, 155);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(190, 51);
-            this.panel12.TabIndex = 39;
+            this.panelDis5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(191)))), ((int)(((byte)(234)))));
+            this.panelDis5.Controls.Add(this.label35);
+            this.panelDis5.Controls.Add(this.label36);
+            this.panelDis5.Controls.Add(this.textBoxHid5Height);
+            this.panelDis5.Controls.Add(this.textBoxHid5Width);
+            this.panelDis5.Location = new System.Drawing.Point(18, 155);
+            this.panelDis5.Name = "panelDis5";
+            this.panelDis5.Size = new System.Drawing.Size(190, 51);
+            this.panelDis5.TabIndex = 39;
             // 
             // label35
             // 
@@ -1137,7 +1098,7 @@
             // 
             // panel13
             // 
-            this.panel13.Controls.Add(this.panel8);
+            this.panel13.Controls.Add(this.panelDis1);
             this.panel13.Controls.Add(this.panel3);
             this.panel13.Location = new System.Drawing.Point(236, 4);
             this.panel13.Name = "panel13";
@@ -1146,7 +1107,7 @@
             // 
             // panel14
             // 
-            this.panel14.Controls.Add(this.panel9);
+            this.panel14.Controls.Add(this.panelDis2);
             this.panel14.Controls.Add(this.panel4);
             this.panel14.Location = new System.Drawing.Point(455, 4);
             this.panel14.Name = "panel14";
@@ -1156,7 +1117,7 @@
             // panel15
             // 
             this.panel15.Controls.Add(this.panel5);
-            this.panel15.Controls.Add(this.panel10);
+            this.panel15.Controls.Add(this.panelDis3);
             this.panel15.Location = new System.Drawing.Point(674, 4);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(213, 215);
@@ -1165,7 +1126,7 @@
             // panel16
             // 
             this.panel16.Controls.Add(this.panel6);
-            this.panel16.Controls.Add(this.panel11);
+            this.panel16.Controls.Add(this.panelDis4);
             this.panel16.Location = new System.Drawing.Point(893, 4);
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(213, 215);
@@ -1174,7 +1135,7 @@
             // panel17
             // 
             this.panel17.Controls.Add(this.panel7);
-            this.panel17.Controls.Add(this.panel12);
+            this.panel17.Controls.Add(this.panelDis5);
             this.panel17.Location = new System.Drawing.Point(1112, 4);
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(213, 215);
@@ -1183,7 +1144,7 @@
             // panel18
             // 
             this.panel18.Controls.Add(this.panel19);
-            this.panel18.Controls.Add(this.panel20);
+            this.panel18.Controls.Add(this.panelDis6);
             this.panel18.Location = new System.Drawing.Point(17, 251);
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(213, 215);
@@ -1191,7 +1152,7 @@
             // 
             // panel19
             // 
-            this.panel19.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.panel19.BackColor = System.Drawing.Color.MediumTurquoise;
             this.panel19.Controls.Add(this.comboBox6);
             this.panel19.Controls.Add(this.textBoxHid6P);
             this.panel19.Controls.Add(this.label37);
@@ -1273,17 +1234,17 @@
             this.textBoxHid6K.TabIndex = 0;
             this.textBoxHid6K.Text = "1";
             // 
-            // panel20
+            // panelDis6
             // 
-            this.panel20.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel20.Controls.Add(this.label41);
-            this.panel20.Controls.Add(this.label42);
-            this.panel20.Controls.Add(this.textBoxHid6Height);
-            this.panel20.Controls.Add(this.textBoxHid6Width);
-            this.panel20.Location = new System.Drawing.Point(18, 155);
-            this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(190, 51);
-            this.panel20.TabIndex = 39;
+            this.panelDis6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(191)))), ((int)(((byte)(234)))));
+            this.panelDis6.Controls.Add(this.label41);
+            this.panelDis6.Controls.Add(this.label42);
+            this.panelDis6.Controls.Add(this.textBoxHid6Height);
+            this.panelDis6.Controls.Add(this.textBoxHid6Width);
+            this.panelDis6.Location = new System.Drawing.Point(18, 155);
+            this.panelDis6.Name = "panelDis6";
+            this.panelDis6.Size = new System.Drawing.Size(190, 51);
+            this.panelDis6.TabIndex = 39;
             // 
             // label41
             // 
@@ -1320,7 +1281,7 @@
             // panel21
             // 
             this.panel21.Controls.Add(this.panel22);
-            this.panel21.Controls.Add(this.panel23);
+            this.panel21.Controls.Add(this.panelDis7);
             this.panel21.Location = new System.Drawing.Point(236, 251);
             this.panel21.Name = "panel21";
             this.panel21.Size = new System.Drawing.Size(213, 215);
@@ -1328,7 +1289,7 @@
             // 
             // panel22
             // 
-            this.panel22.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.panel22.BackColor = System.Drawing.Color.MediumTurquoise;
             this.panel22.Controls.Add(this.comboBox7);
             this.panel22.Controls.Add(this.textBoxHid7P);
             this.panel22.Controls.Add(this.label43);
@@ -1410,17 +1371,17 @@
             this.textBoxHid7K.TabIndex = 0;
             this.textBoxHid7K.Text = "1";
             // 
-            // panel23
+            // panelDis7
             // 
-            this.panel23.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel23.Controls.Add(this.label47);
-            this.panel23.Controls.Add(this.label48);
-            this.panel23.Controls.Add(this.textBoxHid7Height);
-            this.panel23.Controls.Add(this.textBoxHid7Width);
-            this.panel23.Location = new System.Drawing.Point(18, 155);
-            this.panel23.Name = "panel23";
-            this.panel23.Size = new System.Drawing.Size(190, 51);
-            this.panel23.TabIndex = 39;
+            this.panelDis7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(191)))), ((int)(((byte)(234)))));
+            this.panelDis7.Controls.Add(this.label47);
+            this.panelDis7.Controls.Add(this.label48);
+            this.panelDis7.Controls.Add(this.textBoxHid7Height);
+            this.panelDis7.Controls.Add(this.textBoxHid7Width);
+            this.panelDis7.Location = new System.Drawing.Point(18, 155);
+            this.panelDis7.Name = "panelDis7";
+            this.panelDis7.Size = new System.Drawing.Size(190, 51);
+            this.panelDis7.TabIndex = 39;
             // 
             // label47
             // 
@@ -1457,7 +1418,7 @@
             // panel24
             // 
             this.panel24.Controls.Add(this.panel25);
-            this.panel24.Controls.Add(this.panel26);
+            this.panel24.Controls.Add(this.panelDis8);
             this.panel24.Location = new System.Drawing.Point(455, 251);
             this.panel24.Name = "panel24";
             this.panel24.Size = new System.Drawing.Size(213, 215);
@@ -1465,7 +1426,7 @@
             // 
             // panel25
             // 
-            this.panel25.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.panel25.BackColor = System.Drawing.Color.MediumTurquoise;
             this.panel25.Controls.Add(this.comboBox8);
             this.panel25.Controls.Add(this.textBoxHid8P);
             this.panel25.Controls.Add(this.label49);
@@ -1547,17 +1508,17 @@
             this.textBoxHid8K.TabIndex = 0;
             this.textBoxHid8K.Text = "1";
             // 
-            // panel26
+            // panelDis8
             // 
-            this.panel26.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel26.Controls.Add(this.label53);
-            this.panel26.Controls.Add(this.label54);
-            this.panel26.Controls.Add(this.textBoxHid8Height);
-            this.panel26.Controls.Add(this.textBoxHid8Width);
-            this.panel26.Location = new System.Drawing.Point(18, 155);
-            this.panel26.Name = "panel26";
-            this.panel26.Size = new System.Drawing.Size(190, 51);
-            this.panel26.TabIndex = 39;
+            this.panelDis8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(191)))), ((int)(((byte)(234)))));
+            this.panelDis8.Controls.Add(this.label53);
+            this.panelDis8.Controls.Add(this.label54);
+            this.panelDis8.Controls.Add(this.textBoxHid8Height);
+            this.panelDis8.Controls.Add(this.textBoxHid8Width);
+            this.panelDis8.Location = new System.Drawing.Point(18, 155);
+            this.panelDis8.Name = "panelDis8";
+            this.panelDis8.Size = new System.Drawing.Size(190, 51);
+            this.panelDis8.TabIndex = 39;
             // 
             // label53
             // 
@@ -1594,7 +1555,7 @@
             // panel27
             // 
             this.panel27.Controls.Add(this.panel28);
-            this.panel27.Controls.Add(this.panel29);
+            this.panel27.Controls.Add(this.panelDis9);
             this.panel27.Location = new System.Drawing.Point(674, 251);
             this.panel27.Name = "panel27";
             this.panel27.Size = new System.Drawing.Size(213, 215);
@@ -1602,7 +1563,7 @@
             // 
             // panel28
             // 
-            this.panel28.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.panel28.BackColor = System.Drawing.Color.MediumTurquoise;
             this.panel28.Controls.Add(this.comboBox9);
             this.panel28.Controls.Add(this.textBoxHid9P);
             this.panel28.Controls.Add(this.label55);
@@ -1684,17 +1645,17 @@
             this.textBoxHid9K.TabIndex = 0;
             this.textBoxHid9K.Text = "1";
             // 
-            // panel29
+            // panelDis9
             // 
-            this.panel29.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel29.Controls.Add(this.label59);
-            this.panel29.Controls.Add(this.label60);
-            this.panel29.Controls.Add(this.textBoxHid9Height);
-            this.panel29.Controls.Add(this.textBoxHid9Width);
-            this.panel29.Location = new System.Drawing.Point(18, 155);
-            this.panel29.Name = "panel29";
-            this.panel29.Size = new System.Drawing.Size(190, 51);
-            this.panel29.TabIndex = 39;
+            this.panelDis9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(191)))), ((int)(((byte)(234)))));
+            this.panelDis9.Controls.Add(this.label59);
+            this.panelDis9.Controls.Add(this.label60);
+            this.panelDis9.Controls.Add(this.textBoxHid9Height);
+            this.panelDis9.Controls.Add(this.textBoxHid9Width);
+            this.panelDis9.Location = new System.Drawing.Point(18, 155);
+            this.panelDis9.Name = "panelDis9";
+            this.panelDis9.Size = new System.Drawing.Size(190, 51);
+            this.panelDis9.TabIndex = 39;
             // 
             // label59
             // 
@@ -1731,7 +1692,7 @@
             // panel30
             // 
             this.panel30.Controls.Add(this.panel31);
-            this.panel30.Controls.Add(this.panel32);
+            this.panel30.Controls.Add(this.panelDis10);
             this.panel30.Location = new System.Drawing.Point(893, 251);
             this.panel30.Name = "panel30";
             this.panel30.Size = new System.Drawing.Size(213, 215);
@@ -1739,7 +1700,7 @@
             // 
             // panel31
             // 
-            this.panel31.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.panel31.BackColor = System.Drawing.Color.MediumTurquoise;
             this.panel31.Controls.Add(this.comboBox10);
             this.panel31.Controls.Add(this.textBoxHid10P);
             this.panel31.Controls.Add(this.label61);
@@ -1821,17 +1782,17 @@
             this.textBoxHid10K.TabIndex = 0;
             this.textBoxHid10K.Text = "1";
             // 
-            // panel32
+            // panelDis10
             // 
-            this.panel32.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel32.Controls.Add(this.label65);
-            this.panel32.Controls.Add(this.label66);
-            this.panel32.Controls.Add(this.textBoxHid10Height);
-            this.panel32.Controls.Add(this.textBoxHid10Width);
-            this.panel32.Location = new System.Drawing.Point(18, 155);
-            this.panel32.Name = "panel32";
-            this.panel32.Size = new System.Drawing.Size(190, 51);
-            this.panel32.TabIndex = 39;
+            this.panelDis10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(191)))), ((int)(((byte)(234)))));
+            this.panelDis10.Controls.Add(this.label65);
+            this.panelDis10.Controls.Add(this.label66);
+            this.panelDis10.Controls.Add(this.textBoxHid10Height);
+            this.panelDis10.Controls.Add(this.textBoxHid10Width);
+            this.panelDis10.Location = new System.Drawing.Point(18, 155);
+            this.panelDis10.Name = "panelDis10";
+            this.panelDis10.Size = new System.Drawing.Size(190, 51);
+            this.panelDis10.TabIndex = 39;
             // 
             // label65
             // 
@@ -1868,7 +1829,7 @@
             // panel33
             // 
             this.panel33.Controls.Add(this.panel34);
-            this.panel33.Controls.Add(this.panel35);
+            this.panel33.Controls.Add(this.panelDis11);
             this.panel33.Location = new System.Drawing.Point(1112, 251);
             this.panel33.Name = "panel33";
             this.panel33.Size = new System.Drawing.Size(213, 215);
@@ -1876,7 +1837,7 @@
             // 
             // panel34
             // 
-            this.panel34.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.panel34.BackColor = System.Drawing.Color.MediumTurquoise;
             this.panel34.Controls.Add(this.comboBox11);
             this.panel34.Controls.Add(this.textBoxHid11P);
             this.panel34.Controls.Add(this.label67);
@@ -1958,17 +1919,17 @@
             this.textBoxHid11K.TabIndex = 0;
             this.textBoxHid11K.Text = "1";
             // 
-            // panel35
+            // panelDis11
             // 
-            this.panel35.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel35.Controls.Add(this.label71);
-            this.panel35.Controls.Add(this.label72);
-            this.panel35.Controls.Add(this.textBoxHid11Height);
-            this.panel35.Controls.Add(this.textBoxHid11Width);
-            this.panel35.Location = new System.Drawing.Point(18, 155);
-            this.panel35.Name = "panel35";
-            this.panel35.Size = new System.Drawing.Size(190, 51);
-            this.panel35.TabIndex = 39;
+            this.panelDis11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(191)))), ((int)(((byte)(234)))));
+            this.panelDis11.Controls.Add(this.label71);
+            this.panelDis11.Controls.Add(this.label72);
+            this.panelDis11.Controls.Add(this.textBoxHid11Height);
+            this.panelDis11.Controls.Add(this.textBoxHid11Width);
+            this.panelDis11.Location = new System.Drawing.Point(18, 155);
+            this.panelDis11.Name = "panelDis11";
+            this.panelDis11.Size = new System.Drawing.Size(190, 51);
+            this.panelDis11.TabIndex = 39;
             // 
             // label71
             // 
@@ -2005,7 +1966,7 @@
             // panel36
             // 
             this.panel36.Controls.Add(this.panel37);
-            this.panel36.Controls.Add(this.panel38);
+            this.panel36.Controls.Add(this.panelDis12);
             this.panel36.Location = new System.Drawing.Point(17, 498);
             this.panel36.Name = "panel36";
             this.panel36.Size = new System.Drawing.Size(213, 215);
@@ -2013,7 +1974,7 @@
             // 
             // panel37
             // 
-            this.panel37.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.panel37.BackColor = System.Drawing.Color.MediumTurquoise;
             this.panel37.Controls.Add(this.comboBox12);
             this.panel37.Controls.Add(this.textBoxHid12P);
             this.panel37.Controls.Add(this.label73);
@@ -2095,17 +2056,17 @@
             this.textBoxHid12K.TabIndex = 0;
             this.textBoxHid12K.Text = "1";
             // 
-            // panel38
+            // panelDis12
             // 
-            this.panel38.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel38.Controls.Add(this.label77);
-            this.panel38.Controls.Add(this.label78);
-            this.panel38.Controls.Add(this.textBoxHid12Height);
-            this.panel38.Controls.Add(this.textBoxHid12Width);
-            this.panel38.Location = new System.Drawing.Point(18, 155);
-            this.panel38.Name = "panel38";
-            this.panel38.Size = new System.Drawing.Size(190, 51);
-            this.panel38.TabIndex = 39;
+            this.panelDis12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(191)))), ((int)(((byte)(234)))));
+            this.panelDis12.Controls.Add(this.label77);
+            this.panelDis12.Controls.Add(this.label78);
+            this.panelDis12.Controls.Add(this.textBoxHid12Height);
+            this.panelDis12.Controls.Add(this.textBoxHid12Width);
+            this.panelDis12.Location = new System.Drawing.Point(18, 155);
+            this.panelDis12.Name = "panelDis12";
+            this.panelDis12.Size = new System.Drawing.Size(190, 51);
+            this.panelDis12.TabIndex = 39;
             // 
             // label77
             // 
@@ -2142,7 +2103,7 @@
             // panel39
             // 
             this.panel39.Controls.Add(this.panel40);
-            this.panel39.Controls.Add(this.panel41);
+            this.panel39.Controls.Add(this.panelDis13);
             this.panel39.Location = new System.Drawing.Point(236, 498);
             this.panel39.Name = "panel39";
             this.panel39.Size = new System.Drawing.Size(213, 215);
@@ -2150,7 +2111,7 @@
             // 
             // panel40
             // 
-            this.panel40.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.panel40.BackColor = System.Drawing.Color.MediumTurquoise;
             this.panel40.Controls.Add(this.comboBox13);
             this.panel40.Controls.Add(this.textBoxHid13P);
             this.panel40.Controls.Add(this.label79);
@@ -2232,17 +2193,17 @@
             this.textBoxHid13K.TabIndex = 0;
             this.textBoxHid13K.Text = "1";
             // 
-            // panel41
+            // panelDis13
             // 
-            this.panel41.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel41.Controls.Add(this.label83);
-            this.panel41.Controls.Add(this.label84);
-            this.panel41.Controls.Add(this.textBoxHid13Height);
-            this.panel41.Controls.Add(this.textBoxHid13Width);
-            this.panel41.Location = new System.Drawing.Point(18, 155);
-            this.panel41.Name = "panel41";
-            this.panel41.Size = new System.Drawing.Size(190, 51);
-            this.panel41.TabIndex = 39;
+            this.panelDis13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(191)))), ((int)(((byte)(234)))));
+            this.panelDis13.Controls.Add(this.label83);
+            this.panelDis13.Controls.Add(this.label84);
+            this.panelDis13.Controls.Add(this.textBoxHid13Height);
+            this.panelDis13.Controls.Add(this.textBoxHid13Width);
+            this.panelDis13.Location = new System.Drawing.Point(18, 155);
+            this.panelDis13.Name = "panelDis13";
+            this.panelDis13.Size = new System.Drawing.Size(190, 51);
+            this.panelDis13.TabIndex = 39;
             // 
             // label83
             // 
@@ -2279,7 +2240,7 @@
             // panel42
             // 
             this.panel42.Controls.Add(this.panel43);
-            this.panel42.Controls.Add(this.panel44);
+            this.panel42.Controls.Add(this.panelDis14);
             this.panel42.Location = new System.Drawing.Point(455, 498);
             this.panel42.Name = "panel42";
             this.panel42.Size = new System.Drawing.Size(213, 215);
@@ -2287,7 +2248,7 @@
             // 
             // panel43
             // 
-            this.panel43.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.panel43.BackColor = System.Drawing.Color.MediumTurquoise;
             this.panel43.Controls.Add(this.comboBox14);
             this.panel43.Controls.Add(this.textBoxHid14P);
             this.panel43.Controls.Add(this.label85);
@@ -2369,17 +2330,17 @@
             this.textBoxHid14K.TabIndex = 0;
             this.textBoxHid14K.Text = "1";
             // 
-            // panel44
+            // panelDis14
             // 
-            this.panel44.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel44.Controls.Add(this.label89);
-            this.panel44.Controls.Add(this.label90);
-            this.panel44.Controls.Add(this.textBoxHid14Height);
-            this.panel44.Controls.Add(this.textBoxHid14Width);
-            this.panel44.Location = new System.Drawing.Point(18, 155);
-            this.panel44.Name = "panel44";
-            this.panel44.Size = new System.Drawing.Size(190, 51);
-            this.panel44.TabIndex = 39;
+            this.panelDis14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(191)))), ((int)(((byte)(234)))));
+            this.panelDis14.Controls.Add(this.label89);
+            this.panelDis14.Controls.Add(this.label90);
+            this.panelDis14.Controls.Add(this.textBoxHid14Height);
+            this.panelDis14.Controls.Add(this.textBoxHid14Width);
+            this.panelDis14.Location = new System.Drawing.Point(18, 155);
+            this.panelDis14.Name = "panelDis14";
+            this.panelDis14.Size = new System.Drawing.Size(190, 51);
+            this.panelDis14.TabIndex = 39;
             // 
             // label89
             // 
@@ -2416,7 +2377,7 @@
             // panel45
             // 
             this.panel45.Controls.Add(this.panel46);
-            this.panel45.Controls.Add(this.panel47);
+            this.panel45.Controls.Add(this.panelDis15);
             this.panel45.Location = new System.Drawing.Point(674, 498);
             this.panel45.Name = "panel45";
             this.panel45.Size = new System.Drawing.Size(213, 215);
@@ -2424,7 +2385,7 @@
             // 
             // panel46
             // 
-            this.panel46.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.panel46.BackColor = System.Drawing.Color.MediumTurquoise;
             this.panel46.Controls.Add(this.comboBox15);
             this.panel46.Controls.Add(this.textBoxHid15P);
             this.panel46.Controls.Add(this.label91);
@@ -2506,17 +2467,17 @@
             this.textBoxHid15K.TabIndex = 0;
             this.textBoxHid15K.Text = "1";
             // 
-            // panel47
+            // panelDis15
             // 
-            this.panel47.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel47.Controls.Add(this.label95);
-            this.panel47.Controls.Add(this.label96);
-            this.panel47.Controls.Add(this.textBoxHid15Height);
-            this.panel47.Controls.Add(this.textBoxHid15Width);
-            this.panel47.Location = new System.Drawing.Point(18, 155);
-            this.panel47.Name = "panel47";
-            this.panel47.Size = new System.Drawing.Size(190, 51);
-            this.panel47.TabIndex = 39;
+            this.panelDis15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(191)))), ((int)(((byte)(234)))));
+            this.panelDis15.Controls.Add(this.label95);
+            this.panelDis15.Controls.Add(this.label96);
+            this.panelDis15.Controls.Add(this.textBoxHid15Height);
+            this.panelDis15.Controls.Add(this.textBoxHid15Width);
+            this.panelDis15.Location = new System.Drawing.Point(18, 155);
+            this.panelDis15.Name = "panelDis15";
+            this.panelDis15.Size = new System.Drawing.Size(190, 51);
+            this.panelDis15.TabIndex = 39;
             // 
             // label95
             // 
@@ -2553,7 +2514,7 @@
             // panel48
             // 
             this.panel48.Controls.Add(this.panel49);
-            this.panel48.Controls.Add(this.panel50);
+            this.panel48.Controls.Add(this.panelDis16);
             this.panel48.Location = new System.Drawing.Point(893, 498);
             this.panel48.Name = "panel48";
             this.panel48.Size = new System.Drawing.Size(213, 215);
@@ -2561,7 +2522,7 @@
             // 
             // panel49
             // 
-            this.panel49.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.panel49.BackColor = System.Drawing.Color.MediumTurquoise;
             this.panel49.Controls.Add(this.comboBox16);
             this.panel49.Controls.Add(this.textBoxHid16P);
             this.panel49.Controls.Add(this.label97);
@@ -2643,17 +2604,17 @@
             this.textBoxHid16K.TabIndex = 0;
             this.textBoxHid16K.Text = "1";
             // 
-            // panel50
+            // panelDis16
             // 
-            this.panel50.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel50.Controls.Add(this.label101);
-            this.panel50.Controls.Add(this.label102);
-            this.panel50.Controls.Add(this.textBoxHid16Height);
-            this.panel50.Controls.Add(this.textBoxHid16Width);
-            this.panel50.Location = new System.Drawing.Point(18, 155);
-            this.panel50.Name = "panel50";
-            this.panel50.Size = new System.Drawing.Size(190, 51);
-            this.panel50.TabIndex = 39;
+            this.panelDis16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(191)))), ((int)(((byte)(234)))));
+            this.panelDis16.Controls.Add(this.label101);
+            this.panelDis16.Controls.Add(this.label102);
+            this.panelDis16.Controls.Add(this.textBoxHid16Height);
+            this.panelDis16.Controls.Add(this.textBoxHid16Width);
+            this.panelDis16.Location = new System.Drawing.Point(18, 155);
+            this.panelDis16.Name = "panelDis16";
+            this.panelDis16.Size = new System.Drawing.Size(190, 51);
+            this.panelDis16.TabIndex = 39;
             // 
             // label101
             // 
@@ -2687,41 +2648,15 @@
             this.textBoxHid16Width.Size = new System.Drawing.Size(73, 21);
             this.textBoxHid16Width.TabIndex = 36;
             // 
-            // textBoxOutChannel
+            // label4
             // 
-            this.textBoxOutChannel.Font = new System.Drawing.Font("宋体", 11F);
-            this.textBoxOutChannel.Location = new System.Drawing.Point(96, 100);
-            this.textBoxOutChannel.Name = "textBoxOutChannel";
-            this.textBoxOutChannel.Size = new System.Drawing.Size(93, 24);
-            this.textBoxOutChannel.TabIndex = 6;
-            this.textBoxOutChannel.Text = "3";
-            this.textBoxOutChannel.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBoxOutHeight
-            // 
-            this.textBoxOutHeight.Font = new System.Drawing.Font("宋体", 11F);
-            this.textBoxOutHeight.Location = new System.Drawing.Point(96, 73);
-            this.textBoxOutHeight.Name = "textBoxOutHeight";
-            this.textBoxOutHeight.Size = new System.Drawing.Size(93, 24);
-            this.textBoxOutHeight.TabIndex = 4;
-            // 
-            // textBoxOutWidth
-            // 
-            this.textBoxOutWidth.Font = new System.Drawing.Font("宋体", 11F);
-            this.textBoxOutWidth.Location = new System.Drawing.Point(96, 46);
-            this.textBoxOutWidth.Name = "textBoxOutWidth";
-            this.textBoxOutWidth.Size = new System.Drawing.Size(93, 24);
-            this.textBoxOutWidth.TabIndex = 0;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("宋体", 14F);
-            this.label6.Location = new System.Drawing.Point(27, 15);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(179, 19);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "Output_Image_Size";
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("宋体", 11F);
+            this.label4.Location = new System.Drawing.Point(113, 185);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(87, 15);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "By TUST-JC";
             // 
             // Form1
             // 
@@ -2764,16 +2699,16 @@
             this.panel6.PerformLayout();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
-            this.panel8.ResumeLayout(false);
-            this.panel8.PerformLayout();
-            this.panel9.ResumeLayout(false);
-            this.panel9.PerformLayout();
-            this.panel10.ResumeLayout(false);
-            this.panel10.PerformLayout();
-            this.panel11.ResumeLayout(false);
-            this.panel11.PerformLayout();
-            this.panel12.ResumeLayout(false);
-            this.panel12.PerformLayout();
+            this.panelDis1.ResumeLayout(false);
+            this.panelDis1.PerformLayout();
+            this.panelDis2.ResumeLayout(false);
+            this.panelDis2.PerformLayout();
+            this.panelDis3.ResumeLayout(false);
+            this.panelDis3.PerformLayout();
+            this.panelDis4.ResumeLayout(false);
+            this.panelDis4.PerformLayout();
+            this.panelDis5.ResumeLayout(false);
+            this.panelDis5.PerformLayout();
             this.panel13.ResumeLayout(false);
             this.panel14.ResumeLayout(false);
             this.panel15.ResumeLayout(false);
@@ -2782,58 +2717,58 @@
             this.panel18.ResumeLayout(false);
             this.panel19.ResumeLayout(false);
             this.panel19.PerformLayout();
-            this.panel20.ResumeLayout(false);
-            this.panel20.PerformLayout();
+            this.panelDis6.ResumeLayout(false);
+            this.panelDis6.PerformLayout();
             this.panel21.ResumeLayout(false);
             this.panel22.ResumeLayout(false);
             this.panel22.PerformLayout();
-            this.panel23.ResumeLayout(false);
-            this.panel23.PerformLayout();
+            this.panelDis7.ResumeLayout(false);
+            this.panelDis7.PerformLayout();
             this.panel24.ResumeLayout(false);
             this.panel25.ResumeLayout(false);
             this.panel25.PerformLayout();
-            this.panel26.ResumeLayout(false);
-            this.panel26.PerformLayout();
+            this.panelDis8.ResumeLayout(false);
+            this.panelDis8.PerformLayout();
             this.panel27.ResumeLayout(false);
             this.panel28.ResumeLayout(false);
             this.panel28.PerformLayout();
-            this.panel29.ResumeLayout(false);
-            this.panel29.PerformLayout();
+            this.panelDis9.ResumeLayout(false);
+            this.panelDis9.PerformLayout();
             this.panel30.ResumeLayout(false);
             this.panel31.ResumeLayout(false);
             this.panel31.PerformLayout();
-            this.panel32.ResumeLayout(false);
-            this.panel32.PerformLayout();
+            this.panelDis10.ResumeLayout(false);
+            this.panelDis10.PerformLayout();
             this.panel33.ResumeLayout(false);
             this.panel34.ResumeLayout(false);
             this.panel34.PerformLayout();
-            this.panel35.ResumeLayout(false);
-            this.panel35.PerformLayout();
+            this.panelDis11.ResumeLayout(false);
+            this.panelDis11.PerformLayout();
             this.panel36.ResumeLayout(false);
             this.panel37.ResumeLayout(false);
             this.panel37.PerformLayout();
-            this.panel38.ResumeLayout(false);
-            this.panel38.PerformLayout();
+            this.panelDis12.ResumeLayout(false);
+            this.panelDis12.PerformLayout();
             this.panel39.ResumeLayout(false);
             this.panel40.ResumeLayout(false);
             this.panel40.PerformLayout();
-            this.panel41.ResumeLayout(false);
-            this.panel41.PerformLayout();
+            this.panelDis13.ResumeLayout(false);
+            this.panelDis13.PerformLayout();
             this.panel42.ResumeLayout(false);
             this.panel43.ResumeLayout(false);
             this.panel43.PerformLayout();
-            this.panel44.ResumeLayout(false);
-            this.panel44.PerformLayout();
+            this.panelDis14.ResumeLayout(false);
+            this.panelDis14.PerformLayout();
             this.panel45.ResumeLayout(false);
             this.panel46.ResumeLayout(false);
             this.panel46.PerformLayout();
-            this.panel47.ResumeLayout(false);
-            this.panel47.PerformLayout();
+            this.panelDis15.ResumeLayout(false);
+            this.panelDis15.PerformLayout();
             this.panel48.ResumeLayout(false);
             this.panel49.ResumeLayout(false);
             this.panel49.PerformLayout();
-            this.panel50.ResumeLayout(false);
-            this.panel50.PerformLayout();
+            this.panelDis16.ResumeLayout(false);
+            this.panelDis16.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -2850,10 +2785,7 @@
         private System.Windows.Forms.TextBox textBoxInChannel;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button buttonReset;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.TextBox textBoxHid1P;
         private System.Windows.Forms.Label label9;
@@ -2899,27 +2831,27 @@
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.TextBox textBoxHid5K;
-        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.Panel panelDis1;
         private System.Windows.Forms.Label Hid1Height;
         private System.Windows.Forms.Label Hid1Width;
         private System.Windows.Forms.TextBox textBoxHid1Height;
         private System.Windows.Forms.TextBox textBoxHid1Width;
-        private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.Panel panelDis2;
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.TextBox textBoxHid2Height;
         private System.Windows.Forms.TextBox textBoxHid2Width;
-        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.Panel panelDis3;
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.TextBox textBoxHid3Height;
         private System.Windows.Forms.TextBox textBoxHid3Width;
-        private System.Windows.Forms.Panel panel11;
+        private System.Windows.Forms.Panel panelDis4;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.TextBox textBoxHid4Height;
         private System.Windows.Forms.TextBox textBoxHid4Width;
-        private System.Windows.Forms.Panel panel12;
+        private System.Windows.Forms.Panel panelDis5;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.TextBox textBoxHid5Height;
@@ -2939,7 +2871,7 @@
         private System.Windows.Forms.Label label39;
         private System.Windows.Forms.Label label40;
         private System.Windows.Forms.TextBox textBoxHid6K;
-        private System.Windows.Forms.Panel panel20;
+        private System.Windows.Forms.Panel panelDis6;
         private System.Windows.Forms.Label label41;
         private System.Windows.Forms.Label label42;
         private System.Windows.Forms.TextBox textBoxHid6Height;
@@ -2954,7 +2886,7 @@
         private System.Windows.Forms.Label label45;
         private System.Windows.Forms.Label label46;
         private System.Windows.Forms.TextBox textBoxHid7K;
-        private System.Windows.Forms.Panel panel23;
+        private System.Windows.Forms.Panel panelDis7;
         private System.Windows.Forms.Label label47;
         private System.Windows.Forms.Label label48;
         private System.Windows.Forms.TextBox textBoxHid7Height;
@@ -2969,7 +2901,7 @@
         private System.Windows.Forms.Label label51;
         private System.Windows.Forms.Label label52;
         private System.Windows.Forms.TextBox textBoxHid8K;
-        private System.Windows.Forms.Panel panel26;
+        private System.Windows.Forms.Panel panelDis8;
         private System.Windows.Forms.Label label53;
         private System.Windows.Forms.Label label54;
         private System.Windows.Forms.TextBox textBoxHid8Height;
@@ -2984,7 +2916,7 @@
         private System.Windows.Forms.Label label57;
         private System.Windows.Forms.Label label58;
         private System.Windows.Forms.TextBox textBoxHid9K;
-        private System.Windows.Forms.Panel panel29;
+        private System.Windows.Forms.Panel panelDis9;
         private System.Windows.Forms.Label label59;
         private System.Windows.Forms.Label label60;
         private System.Windows.Forms.TextBox textBoxHid9Height;
@@ -2999,7 +2931,7 @@
         private System.Windows.Forms.Label label63;
         private System.Windows.Forms.Label label64;
         private System.Windows.Forms.TextBox textBoxHid10K;
-        private System.Windows.Forms.Panel panel32;
+        private System.Windows.Forms.Panel panelDis10;
         private System.Windows.Forms.Label label65;
         private System.Windows.Forms.Label label66;
         private System.Windows.Forms.TextBox textBoxHid10Height;
@@ -3014,7 +2946,7 @@
         private System.Windows.Forms.Label label69;
         private System.Windows.Forms.Label label70;
         private System.Windows.Forms.TextBox textBoxHid11K;
-        private System.Windows.Forms.Panel panel35;
+        private System.Windows.Forms.Panel panelDis11;
         private System.Windows.Forms.Label label71;
         private System.Windows.Forms.Label label72;
         private System.Windows.Forms.TextBox textBoxHid11Height;
@@ -3029,7 +2961,7 @@
         private System.Windows.Forms.Label label75;
         private System.Windows.Forms.Label label76;
         private System.Windows.Forms.TextBox textBoxHid12K;
-        private System.Windows.Forms.Panel panel38;
+        private System.Windows.Forms.Panel panelDis12;
         private System.Windows.Forms.Label label77;
         private System.Windows.Forms.Label label78;
         private System.Windows.Forms.TextBox textBoxHid12Height;
@@ -3044,7 +2976,7 @@
         private System.Windows.Forms.Label label81;
         private System.Windows.Forms.Label label82;
         private System.Windows.Forms.TextBox textBoxHid13K;
-        private System.Windows.Forms.Panel panel41;
+        private System.Windows.Forms.Panel panelDis13;
         private System.Windows.Forms.Label label83;
         private System.Windows.Forms.Label label84;
         private System.Windows.Forms.TextBox textBoxHid13Height;
@@ -3059,7 +2991,7 @@
         private System.Windows.Forms.Label label87;
         private System.Windows.Forms.Label label88;
         private System.Windows.Forms.TextBox textBoxHid14K;
-        private System.Windows.Forms.Panel panel44;
+        private System.Windows.Forms.Panel panelDis14;
         private System.Windows.Forms.Label label89;
         private System.Windows.Forms.Label label90;
         private System.Windows.Forms.TextBox textBoxHid14Height;
@@ -3074,7 +3006,7 @@
         private System.Windows.Forms.Label label93;
         private System.Windows.Forms.Label label94;
         private System.Windows.Forms.TextBox textBoxHid15K;
-        private System.Windows.Forms.Panel panel47;
+        private System.Windows.Forms.Panel panelDis15;
         private System.Windows.Forms.Label label95;
         private System.Windows.Forms.Label label96;
         private System.Windows.Forms.TextBox textBoxHid15Height;
@@ -3089,15 +3021,12 @@
         private System.Windows.Forms.Label label99;
         private System.Windows.Forms.Label label100;
         private System.Windows.Forms.TextBox textBoxHid16K;
-        private System.Windows.Forms.Panel panel50;
+        private System.Windows.Forms.Panel panelDis16;
         private System.Windows.Forms.Label label101;
         private System.Windows.Forms.Label label102;
         private System.Windows.Forms.TextBox textBoxHid16Height;
         private System.Windows.Forms.TextBox textBoxHid16Width;
-        private System.Windows.Forms.TextBox textBoxOutChannel;
-        private System.Windows.Forms.TextBox textBoxOutHeight;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBoxOutWidth;
+        private System.Windows.Forms.Label label4;
     }
 }
 
