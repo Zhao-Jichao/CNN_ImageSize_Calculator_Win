@@ -20,3 +20,9 @@ CNN 图像输入尺寸计算器
 
 ![UI](CNN_ImageSize_CalculatorV0.1.png)
 
+
+2020-09-23 Update Log：
+
+1. 调整了默认颜色的搭配
+
+![UI](CNN_ImageSize_CalculatorV1.2.png)

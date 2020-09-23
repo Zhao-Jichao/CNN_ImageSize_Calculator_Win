@@ -38,6 +38,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.textBoxInWidth = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
             this.buttonReset = new System.Windows.Forms.Button();
             this.buttonCalculate = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -280,7 +281,7 @@
             this.label102 = new System.Windows.Forms.Label();
             this.textBoxHid16Height = new System.Windows.Forms.TextBox();
             this.textBoxHid16Width = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -418,6 +419,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.Control;
+            this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.buttonReset);
             this.panel2.Controls.Add(this.buttonCalculate);
@@ -426,13 +428,23 @@
             this.panel2.Size = new System.Drawing.Size(213, 215);
             this.panel2.TabIndex = 2;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("宋体", 11F);
+            this.label4.Location = new System.Drawing.Point(110, 167);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(87, 15);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "By TUST-JC";
+            // 
             // buttonReset
             // 
             this.buttonReset.BackColor = System.Drawing.Color.Crimson;
             this.buttonReset.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.buttonReset.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonReset.Font = new System.Drawing.Font("宋体", 12F);
-            this.buttonReset.Location = new System.Drawing.Point(16, 98);
+            this.buttonReset.Location = new System.Drawing.Point(16, 86);
             this.buttonReset.Name = "buttonReset";
             this.buttonReset.Size = new System.Drawing.Size(184, 69);
             this.buttonReset.TabIndex = 5;
@@ -446,7 +458,7 @@
             this.buttonCalculate.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.buttonCalculate.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonCalculate.Font = new System.Drawing.Font("宋体", 12F);
-            this.buttonCalculate.Location = new System.Drawing.Point(16, 14);
+            this.buttonCalculate.Location = new System.Drawing.Point(16, 8);
             this.buttonCalculate.Name = "buttonCalculate";
             this.buttonCalculate.Size = new System.Drawing.Size(184, 69);
             this.buttonCalculate.TabIndex = 5;
@@ -2648,15 +2660,15 @@
             this.textBoxHid16Width.Size = new System.Drawing.Size(73, 21);
             this.textBoxHid16Width.TabIndex = 36;
             // 
-            // label4
+            // label5
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("宋体", 11F);
-            this.label4.Location = new System.Drawing.Point(113, 185);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(87, 15);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "By TUST-JC";
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("宋体", 11F);
+            this.label5.Location = new System.Drawing.Point(62, 191);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(135, 15);
+            this.label5.TabIndex = 51;
+            this.label5.Text = "WeChat: jichaozh";
             // 
             // Form1
             // 
@@ -3027,6 +3039,7 @@
         private System.Windows.Forms.TextBox textBoxHid16Height;
         private System.Windows.Forms.TextBox textBoxHid16Width;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
     }
 }
 
